@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-// import Block from 'components/Block';
 
 const UserIconWrap = styled.div`
     min-width: 60px;

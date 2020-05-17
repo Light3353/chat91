@@ -3,17 +3,17 @@ import { UserIconWrap } from 'components/Icon';
 
 const posImg = {
     position: "absolute",
-    transform: "traslate(-50%, -50%)",
-    top: "0",
-    left: "0",
-    width: "80px",
-    height: "60px"
+    transform: "translate(-50%, -50%)",
+    top: "50%",
+    left: "50%",
+    width: "90px",
+    height: "60px",
 }
 
 const UserIcon = (props) => {
     return (
         <UserIconWrap>
-            <img src={props.src} alt="userAvatar" style={posImg}/>
+            <img src={props.src} alt="user" style={posImg}/>
         </UserIconWrap>
     )
 };
