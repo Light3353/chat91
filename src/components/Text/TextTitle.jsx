@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const TextTitle = styled(Text)`
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
 `;
 
 export default TextTitle;

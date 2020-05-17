@@ -5,12 +5,15 @@ import DialogsItem from './DialogsItem.jsx';
 
 const WrapDialogs = styled(Block)`
     flex-direction: column;
-    height: 100%;
+    height: 85vh;
     display: flex;
-    overflow: scroll;
+    overflow-y: scroll;
+    padding: 10px 0 15px 0;
+    margin-top: 5px;
+
 `;
 
-const WrapperDialogs = () => {
+const Dialogs = () => {
     return (
         <WrapDialogs>
             <DialogsItem/>
@@ -19,4 +22,4 @@ const WrapperDialogs = () => {
     )
 }
 
-export default React.memo(WrapperDialogs);
+export default React.memo(Dialogs);

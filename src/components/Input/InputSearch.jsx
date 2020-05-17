@@ -7,17 +7,11 @@ import Input from './Input.jsx';
 const InputNav = styled(Input)`
     font-size: 12px;
     width: 100%;
-    padding: 10px 10%;
-    border-radius: 15px;
+    padding: 10px 5% 10px 40px;
+    border-radius: 35px;
     border: transparent;
     background-color: #36344E;
-    &::before {
-        content: '';
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-
-    }
+    position: relative;
     &::placeholder {
         color: #fff;
     }

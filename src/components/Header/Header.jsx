@@ -1,20 +1,24 @@
 import React from 'react';
-import ButtonMenu from 'components/Button';
+import { BurgerIcon } from 'components/Icon';
 import { InputSearch } from 'components/Input';
-import Flex from './Flex.jsx';
+import { SearchIcon } from 'components/Icon';
+import { Flex } from 'components/Block';
 import styled from 'styled-components';
 
 const WrapHeader = styled(Flex)`
     height: 80px;
-    border-bottom: 2px solid rgba(255,255,255, .2);
+    border-bottom: 3px solid rgba(255,255,255, .2);
     padding: 0 10px;
     width: auto;
 `;
 const Header = () => {
     return (
         <WrapHeader>
-            <ButtonMenu/>
-            <InputSearch/>
+            <BurgerIcon/>
+            <Flex>
+                <SearchIcon/>
+                <InputSearch/>
+            </Flex>
         </WrapHeader>    
     )
 }

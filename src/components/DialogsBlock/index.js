@@ -1,10 +1,12 @@
 import DialogsItem from './DialogsItem.jsx';
-import WrapperDialogs from './WrapperDialogs.jsx';
+import Dialogs from './WrapperDialogs.jsx';
 import UserIcon from './UserIcon.jsx';
+import Primary from './Primary.jsx';
 
 
 export { 
     DialogsItem,
-    WrapperDialogs,
+    Dialogs,
     UserIcon,
+    Primary,
 }
