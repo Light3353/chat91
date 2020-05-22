@@ -11,23 +11,19 @@ import Wrapper from "../Block/Wrapper";
 
 const Dialogs = () => {
 	return <DialogBlock>
-		<DialogImg>
-			<Wrapper>
-				<img src={Foto} alt='Foto'/>
-			</Wrapper>
-			<p>
-				<FontAwesomeIcon icon={faCheckCircle} size='2x' style={{ color: 'green' ,backgroundColor: '#fff'}} />
-			</p>
-		</DialogImg>
-		<DialogNameSms>
-			<NameUser />
-			<SmsUser />
-		</DialogNameSms>
-
-		
+			<DialogImg>
+				<Wrapper>
+					<img src={Foto} alt='Foto'/>
+				</Wrapper>
+				<p>
+					<FontAwesomeIcon icon={faCheckCircle} size='2x' style={{ color: 'green' ,backgroundColor: '#fff'}} />
+				</p>
+			</DialogImg>
+			<DialogNameSms>
+				<NameUser />
+				<SmsUser />
+			</DialogNameSms>
 	</DialogBlock>
-
-
 }
 
 export default Dialogs;

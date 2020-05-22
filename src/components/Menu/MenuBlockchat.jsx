@@ -17,11 +17,7 @@ const MenuBlockchat = () => {
 				</div>
 				<Input type='text' placeholder='Search' />
 			</InputBlock>
-
 		</NavBlock>
-
-
-
 }
 
 export default MenuBlockchat;

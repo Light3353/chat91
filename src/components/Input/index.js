@@ -1,6 +1,8 @@
 import Input from './Input.jsx';
+import InputAdd from "./InputAdd";
 
-export default Search;
+
+export default Input;
 export {
-	Input,
+	InputAdd,
 }

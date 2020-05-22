@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e944642d-ae15-41f6-b0c8-4649fae3f205" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/chat91" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1c4PdbRabbGDygJ5cMnhjoepxt0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Block" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1991\chat\src\components\Block" />
+      <recent name="D:\1991\chat\src\components\Block\Content" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1991\chat\src\components\Block\Chat" />
+      <recent name="D:\1991\chat\src\components\Block\Content" />
+      <recent name="D:\1991\chat\src\components" />
+      <recent name="D:\1991\chat\src\components\App" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e944642d-ae15-41f6-b0c8-4649fae3f205" name="Default Changelist" comment="" />
+      <created>1589784980624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589784980624</updated>
+      <workItem from="1589784981893" duration="1502000" />
+      <workItem from="1589798251547" duration="10104000" />
+      <workItem from="1589808379878" duration="14816000" />
+      <workItem from="1589833628421" duration="5608000" />
+      <workItem from="1589871468335" duration="4194000" />
+      <workItem from="1589880151347" duration="1432000" />
+      <workItem from="1589881772536" duration="30911000" />
+      <workItem from="1589959654322" duration="1000" />
+      <workItem from="1590134522312" duration="9568000" />
+      <workItem from="1590152841800" duration="1068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="245" y="138" key="#JavaScript" timestamp="1589880386452">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="187" y="133" key="#JavaScript/0.0.1536.834@0.0.1536.834" timestamp="1589808832938" />
+    <state x="245" y="138" key="#JavaScript/66.0.1470.864@66.0.1470.864" timestamp="1589880386452" />
+    <state x="233" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589903347935">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="233" y="241" key="#com.intellij.fileTypes.FileTypeChooser/66.0.1470.864@66.0.1470.864" timestamp="1589903347935" />
+    <state x="200" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589836115064">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="200" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/66.0.1470.864@66.0.1470.864" timestamp="1589836115064" />
+    <state width="948" height="166" key="GridCell.Tab.0.bottom" timestamp="1590153957576">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state width="766" height="210" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
+    <state width="948" height="166" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1590153957576" />
+    <state width="948" height="166" key="GridCell.Tab.0.center" timestamp="1590153957575">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state width="766" height="210" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
+    <state width="948" height="166" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1590153957575" />
+    <state width="948" height="166" key="GridCell.Tab.0.left" timestamp="1590153957575">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state width="766" height="210" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589808292987" />
+    <state width="948" height="166" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1590153957575" />
+    <state width="948" height="166" key="GridCell.Tab.0.right" timestamp="1590153957575">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state width="766" height="210" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
+    <state width="948" height="166" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1590153957575" />
+    <state x="430" y="72" key="SettingsEditor" timestamp="1589881735115">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="430" y="72" key="SettingsEditor/66.0.1470.864@66.0.1470.864" timestamp="1589881735115" />
+    <state x="427" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589810725154">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="427" y="332" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1589810725154" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1589835681381">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/66.0.1470.864@66.0.1470.864" timestamp="1589835681381" />
+    <state x="122" y="199" key="run.anything.popup" timestamp="1589893938247">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="58" y="192" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1589805679386" />
+    <state x="122" y="199" key="run.anything.popup/66.0.1470.864@66.0.1470.864" timestamp="1589893938247" />
+    <state x="632" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1589836330261">
+      <screen x="66" y="0" width="1470" height="864" />
+    </state>
+    <state x="632" y="185" width="672" height="678" key="search.everywhere.popup/66.0.1470.864@66.0.1470.864" timestamp="1589836330261" />
+  </component>
+</project>

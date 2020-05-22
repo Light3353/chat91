@@ -6,12 +6,14 @@ import { faVideo } from '@fortawesome/free-solid-svg-icons'
 
 
 const ButtonV = styled.button`
+
 	background-color: #373351;
 	outline:none;
 	border: none;
 	border-left: 1px solid #5b5a77;
-	margin: 0 0 -10px 0;
-	width: 80px;
+	align-items: center;
+	width:100%;
+	height:100%;
 
 `
 const ButtonVideo = () => {

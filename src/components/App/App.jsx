@@ -4,9 +4,9 @@ import  Content from "../Block/Content/Content";
 import ContentChat from "../Block/Content/ContentChat";
 import MenuBlockchat from "../Menu";
 import Dialogs from "../Dialogs";
-import DialogItem from "../Dialogs/DialogItem";
 import Scroll from "../Scroll/Scroll";
 import ChatItem from "../Block/Chat";
+import ChatBlockInput from "../Block/Chat/ChatBlockInput";
 
 
 
@@ -26,9 +26,9 @@ const App = () => {
 				<Dialogs />
 			</Scroll>
 		</Content>
-
 		<ContentChat>
 			<ChatItem />
+			<ChatBlockInput />
 		</ContentChat>
 	</PrimaryBlock>;
 };

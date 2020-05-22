@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Scroll = styled.div`
+		padding-top:10px;
 		overflow-y: scroll;
 			height: 500px;
 			width: 100%;
