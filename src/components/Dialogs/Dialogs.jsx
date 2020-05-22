@@ -1,5 +1,5 @@
 import React from 'react';
-import Foto from 'img/Foto1.jpg';
+import Foto from '../../img/Foto.jpg'
 import DialogBlock from "../Block/Dialog/DialogBlock";
 import DialogImg from "../Block/Dialog/DialogImg";
 import SmsUser from "../Text/Dialog/SmsUser";

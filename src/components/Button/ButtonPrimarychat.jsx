@@ -9,10 +9,7 @@ const ButtonPrimarychat = styled.button`
 	background-color:transparent;
 	border:none;
 	outline:none;
-		align-self:center;
-
-	
-	
+	align-self:center;
 
 	&:before {
 	content: '';

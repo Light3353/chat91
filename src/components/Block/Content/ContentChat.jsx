@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import PrimaryBlock from "../PrimaryBlock";
 
 
 const ContentChat = styled.div`

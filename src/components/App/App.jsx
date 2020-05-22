@@ -13,23 +13,24 @@ import ChatBlockInput from "../Block/Chat/ChatBlockInput";
 const App = () => {
 	return <PrimaryBlock>
 		<Content>
-			<MenuBlockchat />
-			<Scroll>
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-				<Dialogs />
-			</Scroll>
+		    <MenuBlockchat />
+		    <Scroll>
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		       <Dialogs />
+		    </Scroll>
 		</Content>
 		<ContentChat>
-			<ChatItem />
-			<ChatBlockInput />
+		    <ChatItem />
+		    <ChatBlockInput />
 		</ContentChat>
+
 	</PrimaryBlock>;
 };
 

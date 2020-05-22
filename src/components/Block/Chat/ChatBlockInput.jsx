@@ -1,36 +1,32 @@
 import React from 'react';
-import DialogNameSms from "../Dialog/DialogNameSms";
-import NameUser from "../../Text/Dialog";
-import WrapperImg from "../WrapperImg";
-import ChatBlock from "./ChatBlock";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperclip, faSearch } from '@fortawesome/free-solid-svg-icons'
-
-import StatusUser from "../../Text/Dialog/StatusUser";
-import ButtonVideo from "../../Button/ButtonVideo";
-import ChatBlockButtonVideo from "./ChatBlockButtonVideo";
-import ButtonPrimarychat from "../../Button";
-import Input from "../../Input";
-import InputBlock from "../Input";
+import ChatBlockDown from "./ChatBlockDown";
+import InputBlockAdd from "../Input/InputBlockAdd";
 import InputAdd from "../../Input/InputAdd";
+import InputBlockMessage from "../Input/InputBlockMessage";
+import InputMessage from "../../Input/InputMessage";
+import Smile from '../../../img/emojis.png'
+import Attach from '../../../img/attach.png';
+import ButtonSend from "../../Button/ButtonSend";
+
 
 const ChatBlockInput = () => {
-	return 	<ChatBlock>
-		<InputBlock>
+	return 	<ChatBlockDown>
+		<InputBlockAdd>
 			<div>
-				<FontAwesomeIcon icon={faPaperclip} size='2x' style={{ color: '#fff' }} />
+				<img src={Attach} alt=""/>
 			</div>
 			<InputAdd type='file'/>
-		</InputBlock>
-		{/*<DialogNameSms>*/}
-		{/*	<NameUser />*/}
-		{/*	<StatusUser />*/}
-		{/*</DialogNameSms>*/}
-		{/*<ChatBlockButtonVideo>*/}
-		{/*	<ButtonVideo />*/}
-		{/*</ChatBlockButtonVideo>*/}
-	</ChatBlock>
+		</InputBlockAdd>
+		<InputBlockMessage>
+			<InputMessage rows="3"  placeholder='Type your message...' />
+		</InputBlockMessage>
+		<InputBlockAdd>
+			<img src={Smile} alt=""/>
+		</InputBlockAdd>
+		<ButtonSend>
+		</ButtonSend>
 
+	</ChatBlockDown>
 }
 
 export default ChatBlockInput;

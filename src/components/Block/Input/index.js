@@ -1,3 +1,9 @@
-import InputBlock from "./InputBlock";
+import InputBlockSearch from "./InputBlockSearch";
+import InputBlockAdd from "./InputBlockAdd";
+import InputBlockMessage from "./InputBlockMessage";
 
-export default InputBlock;
+export default InputBlockSearch;
+export {
+	InputBlockAdd,
+	InputBlockMessage,
+}
