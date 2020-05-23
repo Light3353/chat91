@@ -11,113 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e944642d-ae15-41f6-b0c8-4649fae3f205" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Block/Input/InputBlockAdd.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Block/Input/InputBlockMessage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Block/Input/InputBlockSearch.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/ButtonSend.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/InputMessage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/InputSearch.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Ellipse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Foto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/attach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/emojis.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/photo5327798526169689718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/photo5327798526169689719.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/App/App.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/App/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Chat/ChatBlock.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Chat/ChatTitle.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Chat/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Content/Content.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Content/ContentChat.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Content/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Dialog/DialogBlock.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Dialog/DialogImg.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Dialog/DialogNameSms.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Dialog/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Input/InputBlock.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Input/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/NavBlock.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/PrimaryBlock.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/Wrapper.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/WrapperChat.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Block/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Button/ButtonPrimarychat.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Button/ButtonVideo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Button/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Dialogs/DialogItem.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Dialogs/Dialogs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Dialogs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Icon/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Image/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Input/Input.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Input/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Menu/MenuBlockchat.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Menu/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Scroll/Scroll.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Scroll/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Text/Dialog/NameUser.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Text/Dialog/SmsUser.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Text/Dialog/StatusUser.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Text/Dialog/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/Text/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/img/Foto1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/img/news_images/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/img/news_images/news_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/img/news_images/news_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/img/news_images/news_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/Account/Account.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/Account/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/Main/Main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/Main/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/News/News.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/News/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/avatar/avatarPrimary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/avatar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/blocks/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/blocks/primaryDesktop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/blocks/primaryMobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/buttons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/buttons/primary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/buttons/primaryDesktop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/buttons/primaryMobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/buttons/primaryTablet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/form/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/form/primaryDesktop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/form/primaryMobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/inputs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat91/src/theme/inputs/primary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/Chat/ChatBlockButtonVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Chat/ChatBlockButtonVideo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/Chat/ChatBlockInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Chat/ChatBlockInput.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/Chat/ChatTitle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Chat/ChatTitle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/Chat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Chat/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/Content/ContentChat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Content/ContentChat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Block/NavBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/NavBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonPrimarychat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonPrimarychat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/InputAdd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/InputAdd.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/MenuBlockchat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/MenuBlockchat.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/InputMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/InputMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Scroll/Scroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Scroll/Scroll.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +103,8 @@
       <workItem from="1589959654322" duration="1000" />
       <workItem from="1590134522312" duration="9568000" />
       <workItem from="1590152841800" duration="1068000" />
-      <workItem from="1590171927867" duration="463000" />
+      <workItem from="1590171927867" duration="1143000" />
+      <workItem from="1590213280689" duration="1248000" />
     </task>
     <servers />
   </component>
@@ -246,26 +143,26 @@
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="200" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/66.0.1470.864@66.0.1470.864" timestamp="1589836115064" />
-    <state width="948" height="166" key="GridCell.Tab.0.bottom" timestamp="1590171915153">
+    <state width="948" height="166" key="GridCell.Tab.0.bottom" timestamp="1590181138473">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
-    <state width="948" height="166" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1590171915153" />
-    <state width="948" height="166" key="GridCell.Tab.0.center" timestamp="1590171915153">
+    <state width="948" height="166" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1590181138473" />
+    <state width="948" height="166" key="GridCell.Tab.0.center" timestamp="1590181138473">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
-    <state width="948" height="166" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1590171915153" />
-    <state width="948" height="166" key="GridCell.Tab.0.left" timestamp="1590171915153">
+    <state width="948" height="166" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1590181138473" />
+    <state width="948" height="166" key="GridCell.Tab.0.left" timestamp="1590181138472">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589808292987" />
-    <state width="948" height="166" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1590171915153" />
-    <state width="948" height="166" key="GridCell.Tab.0.right" timestamp="1590171915153">
+    <state width="948" height="166" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1590181138472" />
+    <state width="948" height="166" key="GridCell.Tab.0.right" timestamp="1590181138473">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
-    <state width="948" height="166" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1590171915153" />
+    <state width="948" height="166" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1590181138473" />
     <state width="948" height="252" key="GridCell.Tab.1.bottom" timestamp="1590171914949">
       <screen x="66" y="0" width="1470" height="864" />
     </state>

@@ -17,6 +17,8 @@ const InputMessage = styled.textarea`
      resize: none;
      
      overflow-y: auto;
+     scrollbar-color: #2b80ff #373351;
+		scrollbar-width: thin;
 			
 
 		&::-webkit-scrollbar {
