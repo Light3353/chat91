@@ -13,10 +13,10 @@ const WrapDialogs = styled(Block)`
 
 `;
 
-const Dialogs = () => {
+const Dialogs = (props) => {
     return (
         <WrapDialogs>
-            <DialogsItem/>
+            <DialogsItem data={props.data} />
         </WrapDialogs>
         
     )

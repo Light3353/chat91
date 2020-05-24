@@ -17,7 +17,7 @@ import styled from 'styled-components';
 
 const Primary = styled(WrapperContent)`
     background-color: #4B4B66;
-    width: 40%;
+    width: 30%;
     min-width: 260px;
 `;
 

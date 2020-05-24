@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Item = styled(Flex)`
     min-height: 80px;
-    border-bottom: 3px solid rgba(255,255,255, .1);
+    border-bottom: 2px solid rgba(255,255,255, .1);
     align-items: center;
     padding: 0 10px;
     cursor: pointer;
