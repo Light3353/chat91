@@ -3,24 +3,19 @@ import styled from 'styled-components';
 const InputMessage = styled.textarea`
 
 	outline: none;
-	// transition: all .1s linear;
 	min-width:50px;
 	width:100%;
-
-    border: none;
+	border: 1px solid #373351;
 	align-items: center;
 	height:100%;
-    background-color:#373351;
-    color:#fff;
-    font-size: 20px;
-    // padding-left: 50px;
-     resize: none;
-     
-     overflow-y: auto;
-     scrollbar-color: #2b80ff #373351;
+	background-color:#373351;
+	color:#fff;
+	font-size: 20px;
+    resize: none;
+    overflow-y: auto;
+    scrollbar-color: #2b80ff #373351;
 		scrollbar-width: thin;
 			
-
 		&::-webkit-scrollbar {
 		    width: 5px;
 		    background-color: #464466;
@@ -29,16 +24,10 @@ const InputMessage = styled.textarea`
 		    width: 8px;
 		    background-color: #2b80ff;
 		}
-	
 
-	// 	&::placeholder {
-	// 	   color: #8f8497;
-	//	   
-	// 	}
-	//	
 		&:focus,
 		&:active{
-		// border-color: green;
+		// border-color: #2b80ff;
 		
 	}
 `

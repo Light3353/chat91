@@ -16,12 +16,6 @@ const Scroll = styled.div`
 		width: 8px;
 		background-color: #2b80ff;
 		}
-		
-		
-	
-
-
-
 `
 
 export default Scroll;

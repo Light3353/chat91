@@ -6,7 +6,6 @@ const NavBlock = styled.div`
 	border-bottom: 1px solid #5b5a77;
 	display: flex;
     width: 100%;
-    // align-self:center;
 `
 
 export default NavBlock;

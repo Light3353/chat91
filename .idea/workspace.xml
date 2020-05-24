@@ -12,7 +12,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e944642d-ae15-41f6-b0c8-4649fae3f205" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Chat/ChatBlockInput.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Chat/ChatBlockInput.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Content/ContentChat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Content/ContentChat.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Dialog/DialogBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Dialog/DialogBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Input/InputBlockAdd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Input/InputBlockAdd.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/Input/InputBlockMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/Input/InputBlockMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/NavBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/NavBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Block/PrimaryBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Block/PrimaryBlock.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/ButtonPrimarychat.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/ButtonPrimarychat.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/InputAdd.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/InputAdd.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Input/InputMessage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/InputMessage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Input/InputSearch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Input/InputSearch.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Scroll/Scroll.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Scroll/Scroll.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Block" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -104,7 +114,8 @@
       <workItem from="1590134522312" duration="9568000" />
       <workItem from="1590152841800" duration="1068000" />
       <workItem from="1590171927867" duration="1143000" />
-      <workItem from="1590213280689" duration="1248000" />
+      <workItem from="1590213280689" duration="2219000" />
+      <workItem from="1590301870019" duration="221000" />
     </task>
     <servers />
   </component>
@@ -143,26 +154,26 @@
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state x="200" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/66.0.1470.864@66.0.1470.864" timestamp="1589836115064" />
-    <state width="948" height="166" key="GridCell.Tab.0.bottom" timestamp="1590181138473">
+    <state width="948" height="166" key="GridCell.Tab.0.bottom" timestamp="1590215338642">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
-    <state width="948" height="166" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1590181138473" />
-    <state width="948" height="166" key="GridCell.Tab.0.center" timestamp="1590181138473">
+    <state width="948" height="166" key="GridCell.Tab.0.bottom/66.0.1470.864@66.0.1470.864" timestamp="1590215338642" />
+    <state width="948" height="166" key="GridCell.Tab.0.center" timestamp="1590215338642">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
-    <state width="948" height="166" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1590181138473" />
-    <state width="948" height="166" key="GridCell.Tab.0.left" timestamp="1590181138472">
+    <state width="948" height="166" key="GridCell.Tab.0.center/66.0.1470.864@66.0.1470.864" timestamp="1590215338642" />
+    <state width="948" height="166" key="GridCell.Tab.0.left" timestamp="1590215338642">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1589808292987" />
-    <state width="948" height="166" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1590181138472" />
-    <state width="948" height="166" key="GridCell.Tab.0.right" timestamp="1590181138473">
+    <state width="948" height="166" key="GridCell.Tab.0.left/66.0.1470.864@66.0.1470.864" timestamp="1590215338642" />
+    <state width="948" height="166" key="GridCell.Tab.0.right" timestamp="1590215338642">
       <screen x="66" y="0" width="1470" height="864" />
     </state>
     <state width="766" height="210" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1589808292988" />
-    <state width="948" height="166" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1590181138473" />
+    <state width="948" height="166" key="GridCell.Tab.0.right/66.0.1470.864@66.0.1470.864" timestamp="1590215338642" />
     <state width="948" height="252" key="GridCell.Tab.1.bottom" timestamp="1590171914949">
       <screen x="66" y="0" width="1470" height="864" />
     </state>

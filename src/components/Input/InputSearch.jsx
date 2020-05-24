@@ -22,7 +22,7 @@ const InputSearch = styled.input`
 		
 		&:focus,
 		&:active{
-		border-color: green;
+		border-color: #2b80ff;
 	}
 	
 	

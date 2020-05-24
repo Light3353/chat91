@@ -6,8 +6,5 @@ const DialogBlock = styled(NavBlock)`
 	margin:0;
 	width: unset;
 
-	
-		
-
 `
 export default DialogBlock;

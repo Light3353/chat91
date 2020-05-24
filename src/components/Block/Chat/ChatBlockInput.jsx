@@ -18,7 +18,7 @@ const ChatBlockInput = () => {
 			<InputAdd type='file'/>
 		</InputBlockAdd>
 		<InputBlockMessage>
-			<InputMessage rows="3"  placeholder='Type your message...' />
+			<InputMessage rows="3" maxlength="10" placeholder='Type your message...' />
 		</InputBlockMessage>
 		<InputBlockAdd>
 			<img src={Smile} alt=""/>
