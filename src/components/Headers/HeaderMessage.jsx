@@ -15,10 +15,10 @@ const WrapHeader = styled(Flex)`
 const HeaderMessage = (props) => {
     return (
         <WrapHeader>
-            <UserIcon src={props.data[0].src}/>
+            <UserIcon src={props.state[0].src}/>
                 <WrapperTitle>
-                    <TextTitle>{props.data[0].name} {props.data[0].soname}</TextTitle>
-                    <TextSubTitle>{props.data[0].text}</TextSubTitle>
+                    <TextTitle>{props.state[0].name} {props.state[0].soname}</TextTitle>
+                    <TextSubTitle>{props.state[0].text}</TextSubTitle>
                 </WrapperTitle>   
         </WrapHeader>    
     )

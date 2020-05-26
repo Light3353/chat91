@@ -14,9 +14,10 @@ const WrapDialogs = styled(Block)`
 `;
 
 const Dialogs = (props) => {
+
     return (
         <WrapDialogs>
-            <DialogsItem data={props.data} />
+            <DialogsItem state={props.state} />
         </WrapDialogs>
         
     )

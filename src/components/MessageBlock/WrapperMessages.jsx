@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Block from 'components/Block';
-import MessageItem from './MessageItem.jsx';
+import Messages from './Messages.jsx';
 import { HeaderMessage } from 'components/Headers';
 import { InputMessage } from 'components/Input';
 import { WrapInputMessage } from 'components/Block';
@@ -19,8 +19,8 @@ const MessagesBlock = styled(Block)`
 const WrapperMessages = (props) => {
     return (
         <MessagesBlock>
-            <HeaderMessage data={props.data} />
-            <MessageItem />
+            <HeaderMessage state={props.state.dialogs} />
+            <Messages state={props.state.messages} />
             <WrapInputMessage>
                 <InputMessage />
                 <ButtonSendMessage type="submit"/>

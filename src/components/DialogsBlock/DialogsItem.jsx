@@ -9,8 +9,9 @@ import { TextSubTitle } from 'components/Text';
 
 
 const DialogsItem = (props) => {
+
     return (
-        props.data.map((index) => {
+        props.state.map((index) => {
             return (
                 <Item key={index.id}>
                     <UserIcon src={index.src}/>
