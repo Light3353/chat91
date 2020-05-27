@@ -14,5 +14,9 @@ const InputBlockAdd = styled(InputBlockSearch)`
 	top:30%;
 	left:10px;
 	}
+    
+        
+    
+
 `
 export default InputBlockAdd;

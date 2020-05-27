@@ -10,7 +10,7 @@ const InputBlockSearch = styled.div`
 	
 	& div {
 	position: absolute;
-	top:30%;
+	top:38%;
 	left:10px;
 	}
     

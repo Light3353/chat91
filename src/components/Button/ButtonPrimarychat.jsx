@@ -12,23 +12,23 @@ const ButtonPrimarychat = styled.button`
 	align-self:center;
 
 	&:before {
-		content: '';
-		width: 50px;
-		height:50px;
-		position:absolute;
-		top:50%;
-		left:50%;
-		transform: translate(-50%, -50%);
-		border-radius:50%;
-		border: 2px solid #fff;
-		transition: .2s all;
+	content: '';
+	width: 50px;
+	height:50px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	border-radius:50%;
+	border: 2px solid #fff;
+	transition: .2s all;
 	}
 	
 	&:focus::before,
 	&:active::before{
 		width: 60px;
 		height:60px;
-		border-color: #2b80ff;
+		border-color: green;
 	}
 `
 

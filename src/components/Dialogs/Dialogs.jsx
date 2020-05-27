@@ -8,8 +8,13 @@ import NameUser from "../Text/Dialog";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 import Wrapper from "../Block/Wrapper";
+import styled from "styled-components";
 
-const Dialogs = () => {
+const Name = styled.div`
+	font-size: 27px;
+	color: #fff;
+`
+const Dialogs = ({name = ''}) => {
 	return <DialogBlock>
 			<DialogImg>
 				<Wrapper>
@@ -20,7 +25,7 @@ const Dialogs = () => {
 				</p>
 			</DialogImg>
 			<DialogNameSms>
-				<NameUser />
+				<Name>{name}</Name>
 				<SmsUser />
 			</DialogNameSms>
 	</DialogBlock>

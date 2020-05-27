@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Enter from '../../img/Ellipse.png'
+import Enter from "../../img/Ellipse.png";
 
 
 
@@ -14,6 +14,11 @@ const ButtonV = styled.button`
 	// width:100%;
 	height:100%;
 	padding-right: 10px;
+	transition: .2s;
+	
+	&:focus {
+		transform: scale(.8);
+	}
 
 `
 const ButtonSend = () => {

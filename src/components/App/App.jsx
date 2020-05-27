@@ -3,31 +3,21 @@ import PrimaryBlock from "../Block/PrimaryBlock";
 import  Content from "../Block/Content/Content";
 import ContentChat from "../Block/Content/ContentChat";
 import MenuBlockchat from "../Menu";
-import Dialogs from "../Dialogs";
-import Scroll from "../Scroll/Scroll";
 import ChatItem from "../Block/Chat";
 import ChatBlockInput from "../Block/Chat/ChatBlockInput";
-
+import DialogScroll from "../Block/Dialog/DialogScroll";
+import ChatTexts from "../Block/Chat/ChatTexts";
 
 
 const App = () => {
 	return <PrimaryBlock>
 		<Content>
 		    <MenuBlockchat />
-		    <Scroll>
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		       <Dialogs />
-		    </Scroll>
+		    <DialogScroll />
 		</Content>
 		<ContentChat>
 		    <ChatItem />
+		    <ChatTexts />
 		    <ChatBlockInput />
 		</ContentChat>
 
