@@ -11,17 +11,15 @@ const Wrap = styled(Block)`
     display: flex;
     overflow-y: scroll;
     padding: 10px 5% 15px 5%;
-    // margin-top: 5px;
-
 `;
 
 const Messages = (props) => {
-    
     return (
         <Wrap>
             <Message state={props.state} />
         </Wrap>
-    )
+    );
 };
 
-export default React.memo(Messages);
+
+export default Messages;

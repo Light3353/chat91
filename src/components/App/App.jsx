@@ -5,24 +5,25 @@ import { WrapperPrimary } from 'components/Block';
 import WrapperMessages from 'components/MessageBlock';
 import { Primary as BlockDialogs } from 'components/DialogsBlock';
 import { WrapperContent } from 'components/Block';
-import { BrowserRouter } from 'react-router-dom';
+// import { BrowserRouter } from 'react-router-dom';
+
 
 
 
 const App = (props) => {
 	return (
-			<BrowserRouter>
+			// <BrowserRouter>
 				<WrapperPrimary>
 					<BlockDialogs>
 						<Header />
 						<Dialogs state={props.state.dialogs} />
 					</BlockDialogs>
 					<WrapperContent style={{backgroundColor: "#36344E"}}>
-						<WrapperMessages state={props.state} />
+						<WrapperMessages state={props.state}  addMessage={props.addMessage} updateMessageText={props.updateMessageText}/>
 					</WrapperContent>
 				</WrapperPrimary>
-			</BrowserRouter>
+			// </BrowserRouter>
 		)
 };
 
-export default React.memo(App);
+export default App;

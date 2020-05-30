@@ -5,6 +5,7 @@ import Block from 'components/Block';
 
 const Item = styled(Block)`
     overflow: visible;
+    height: auto;
 `
 const Text = styled.p`
     padding: 10px;
@@ -19,6 +20,7 @@ const Text = styled.p`
     margin: 20px 0 2px 0;
     border-radius: 8px;
     position: relative;
+    min-height: 16px;
 `;
 const TimePost = styled.span`
     color: rgba(255,255,255,.5);
@@ -27,18 +29,26 @@ const TimePost = styled.span`
 
 
 const Message = (props) => {
-    
-    return (
-        props.state.map((i) => { 
+
+    if (props.state == null) {
+        return <React.Fragment/>
+    }
+    else {
+        let elements = props.state.map((item) => { 
             return (
-                <Item key={i.id}>
-                    <Text>{i.message}</Text>
-                    <TimePost>{i.createAt}</TimePost>
+                <Item key={item.id}>
+                    <Text>{item.message}</Text>
+                    <TimePost>{item.createAt}</TimePost>
                 </Item>
             )
         })
-    )    
-};
+        return (
+                <div>
+                    {elements}
+                </div>
+        );
+    }         
+}
 
 
-export default React.memo(Message);
+export default Message;

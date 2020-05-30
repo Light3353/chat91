@@ -11,10 +11,19 @@ const WrapHeader = styled(Flex)`
     padding: 0 10px;
     width: auto;
 `;
+
+
+
 const Header = () => {
+
+    const show = () => {
+        alert('show');
+    }
     return (
         <WrapHeader>
-            <BurgerIcon/>
+            <div onClick={ show } >
+                <BurgerIcon />
+            </div>
             <Flex>
                 <SearchIcon/>
                 <InputSearch/>

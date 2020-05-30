@@ -24,4 +24,4 @@ const HeaderMessage = (props) => {
     )
 }
 
-export default React.memo(HeaderMessage);
+export default HeaderMessage;

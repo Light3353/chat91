@@ -17,18 +17,34 @@ const MessagesBlock = styled(Block)`
 `;
 
 const WrapperMessages = (props) => {
+    let newMessage = React.createRef();
+
+    
+    // const onSubmit = () => {
+    //     let text = newMessage.current.value;
+    //     props.addMessage(text);
+    // }
+    const onClick = (e) => {
+        let text = newMessage.current.value;
+        (text !== "") ? props.addMessage(text) : e.preventDefault();
+    }
+
+    const inputMessageText = () => {
+        let text = newMessage.current.value;
+        props.updateMessageText(text);
+    }
+ 
     return (
         <MessagesBlock>
             <HeaderMessage state={props.state.dialogs} />
             <Messages state={props.state.messages} />
             <WrapInputMessage>
-                <InputMessage />
-                <ButtonSendMessage type="submit"/>
+                <InputMessage newMessage = { newMessage } onChange = { inputMessageText } value={props.state.newMessageText} />
+                <ButtonSendMessage type='submit' onClick= { onClick } />
             </WrapInputMessage>
-            
         </MessagesBlock>
         
     )
 }
 
-export default React.memo(WrapperMessages);
+export default WrapperMessages;

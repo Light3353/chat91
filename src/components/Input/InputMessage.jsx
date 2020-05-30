@@ -1,25 +1,26 @@
 import React from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import Input from './Input.jsx';
 
 
-const Message = styled(Input)`
-    width: 70%;
-    height: 100%;
-    padding: 0 5%;
-    font-size: 15px;
-    background: transparent;
-    border: none;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-`;
+const styledInput = {
+    width: "70%",
+    height: "100",
+    padding: "0 5%",
+    fontSize: "15px",
+    backgroundColor: "transparent",
+    border: "none",
+    overflowWrap: "break-word",
+    wordWrap: "break-word"
+};
 
 
-const InputMessage = () => {
+const InputMessage = ({ newMessage, onChange, value }) => {
     return (
-        <Message type="text" placeholder="Type your message..." />
+        <Input style={styledInput} type='text' placeholder='Type your message...' ref = { newMessage } onChange={onChange} value={value}/>
+        
     )
 }
 
 
-export default React.memo(InputMessage);
+export default InputMessage;

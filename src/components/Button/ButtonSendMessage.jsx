@@ -9,23 +9,25 @@ const Button = styled.button`
     cursor: pointer;
     display: inline-block;
     position: relative;
+    border: none;
+    outline: transparent;
     &::after {
         content: '➤';
         color: #5d5dd4;
         display: inline-block;
         position: absolute;
-        font-size: 17px;
+        font-size: 20px;
         left: 50%;
         top: 50%;   
         transform: translate(-40%, -50%);
     }
 `;
 
-const ButtonSendMessage = () => {
+const ButtonSendMessage = ({ onClick }) => {
  return (
-     <Button />
+     <Button onClick = { onClick } />
  )
 };
 
 
-export default React.memo(ButtonSendMessage);
+export default ButtonSendMessage;
