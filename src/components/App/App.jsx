@@ -1,27 +1,15 @@
 import React from 'react';
-import {
-	BrowserRouter,
-	Switch,
-	Route,
-	Link,
-} from 'react-router-dom';
-import {
-	Main
-} from 'routes';
-
+import {ChatPageWrapper} from 'components/Block';
+import {DialogSection, DialogsListSection} from 'sections';
 
 const App = () => {
-
-	return <React.Fragment>
-		<BrowserRouter>
-			<Switch>
-				<Route exact path="/">
-					<Main/>
-				</Route>
-			</Switch>
-		</BrowserRouter>
-	</React.Fragment>;
-
+    return <React.Fragment>
+        <ChatPageWrapper>
+            <DialogsListSection>
+            	<DialogSection/>
+            </DialogsListSection>
+        </ChatPageWrapper>
+    </React.Fragment>;
 };
 
 export default React.memo(App);

@@ -5,11 +5,7 @@ const Button = styled.button`
 	text-transform: uppercase;
 	text-align: center;
 	border: 1px solid transparent;
-	outline: none!important;
-	&:active,
-	&:focus {
-	outline: none!important;
-	}
+	outline: none;
 `;
 
 export default Button;
