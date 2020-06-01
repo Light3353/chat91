@@ -16,10 +16,10 @@ const App = (props) => {
 				<WrapperPrimary>
 					<BlockDialogs>
 						<Header />
-						<Dialogs state={props.state.dialogs} />
+						<Dialogs state={ props.state.dialogs } />
 					</BlockDialogs>
 					<WrapperContent style={{backgroundColor: "#36344E"}}>
-						<WrapperMessages state={props.state}  addMessage={props.addMessage} updateMessageText={props.updateMessageText}/>
+						<WrapperMessages dispatch={ props.dispatch } state={ props.state }/>
 					</WrapperContent>
 				</WrapperPrimary>
 			// </BrowserRouter>
