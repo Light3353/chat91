@@ -4,7 +4,7 @@ import DialogBlock from "../Block/Dialog/DialogBlock";
 import DialogImg from "../Block/Dialog/DialogImg";
 import SmsUser from "../Text/Dialog/SmsUser";
 import DialogNameSms from "../Block/Dialog/DialogNameSms";
-import NameUser from "../Text/Dialog";
+// import NameUser from "../Text/Dialog";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 import Wrapper from "../Block/Wrapper";

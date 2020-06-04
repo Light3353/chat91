@@ -7,10 +7,18 @@ import InputMessage from "../../Input/InputMessage";
 import Smile from '../../../img/emojis.png'
 import Attach from '../../../img/attach.png';
 import ButtonSend from "../../Button/ButtonSend";
-import onSubmit from './onSubmit.jsx';
+import onSubmitFunc from './onSubmit.jsx';
 
-const ChatBlockInput = () => {
+const ChatBlockInput = ({dialogId, action}) => {
+
+
+	const onSubmit = React.useCallback((...rest) => onSubmitFunc(...rest, dialogId, action), [
+		dialogId,
+		action,
+	])
+	// console.log('dialogId', dialogId)
 	return 	<ChatBlockDown onSubmit={onSubmit}>
+
 		<InputBlockAdd>
 			<div>
 				<img src={Attach} alt=""/>

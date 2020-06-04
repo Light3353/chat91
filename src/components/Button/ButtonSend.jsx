@@ -17,12 +17,12 @@ const ButtonV = styled.button`
 	transition: .2s;
 	
 	&:focus {
-		transform: scale(.8);
+		transform: scale(.8);   
 	}
 
 `
-const ButtonSend = () => {
-	return <ButtonV>
+const ButtonSend = ({...props}) => {
+	return <ButtonV {...props} >
 		<img src={Enter} alt=""/>
 
 	</ButtonV>
