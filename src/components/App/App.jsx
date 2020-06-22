@@ -13,6 +13,7 @@ import {
 } from 'routes';
 import {useResolution} from 'components/Hooks';
 import isLogin from 'utils/isLogin.js';
+import Alert from 'components/Alert';
 
 export const ResolutionContext = React.createContext();
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
 			</Switch>
 		</BrowserRouter>
 		</ResolutionContext.Provider>
+		<Alert />
 	</React.Fragment>;
 
 };
